@@ -1,0 +1,3 @@
+const initialState={
+  activated: false
+}

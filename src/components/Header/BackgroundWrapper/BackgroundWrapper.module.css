@@ -1,0 +1,96 @@
+.Header{
+
+  border: 1px #ccc solid;
+  height: 550px;
+  position: relative;
+
+}
+
+
+.Nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ButtonGroup{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+}
+
+.ButtonGroup button{
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 130%;
+  cursor: pointer;
+}
+
+.ButtonGroup button:first-child{
+  margin-left: 20px;
+}
+.ButtonGroup button:last-child{
+  margin-right: 20px;
+}
+
+
+.ButtonGroup button:focus{
+  outline: none;
+}
+
+.Banner_Intro{
+  margin: auto;
+  margin-top: 5rem;
+
+}
+
+.Banner_Intro h2{
+  margin-top: 100px;
+  font-size: 200%;
+  letter-spacing: 5px;
+}
+
+
+
+.More{
+  border: 2px white solid;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 110%;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+@media (min-width:1100px){
+  .Banner_Intro{
+    max-width: 1100px;
+  }
+}
+
+
+@media (min-width:740px){
+  .Banner_Intro{
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 740px){
+  .ButtonGroup{
+    display: none;
+  }
+  .Banner_Intro{
+    width: 90%;
+  }
+}

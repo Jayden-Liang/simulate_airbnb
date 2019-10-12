@@ -1,0 +1,49 @@
+.TravelStory{
+   margin: auto;
+   margin-top: 50px;
+
+
+}
+
+.all{
+  display: grid;
+  grid-template-columns: 280px 280px 280px 280px;;
+  grid-template-rows:1fr 1fr ;
+  justify-content: flex-start;
+  border: 1px blue solid;
+}
+
+.Img{
+  width: 100%;
+  height: 250px;
+}
+
+.each{
+  width: 250px;
+  border: 1px red solid;
+}
+
+
+
+
+
+@media (min-width:1100px){
+  .TravelStory{
+    max-width: 1100px;
+  }
+}
+
+
+@media (min-width:740px){
+  .TravelStory{
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 740px){
+
+  .TravelStory{
+    width: 90%;
+  }
+}

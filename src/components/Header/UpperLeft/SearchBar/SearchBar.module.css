@@ -1,0 +1,48 @@
+
+.Header_Search_Group{
+  position: absolute;
+  left: 80px;
+  z-index: 20;
+
+}
+.Header_Search{
+  border: 1px #ccc solid;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  background: white;
+  position: relative;
+
+}
+.Header_Input{
+  width: 100%!important;
+  background-color: transparent;
+  height: 100%;
+  margin-left: 10px;
+  padding: 2px 3px;
+  font-size: 120%;
+  font-weight: bold;
+  border: none;
+  color: grey;
+
+
+}
+
+.Header_Input:focus{
+   width: 550px;
+   outline: none;
+}
+
+
+
+.search_icon{
+  display: inline;
+}
+
+.search_icon_itself{
+  color: #133337;
+}

@@ -1,0 +1,30 @@
+.Promotion{
+   margin: auto;
+
+
+}
+
+
+
+
+
+@media (min-width:1100px){
+  .Promotion{
+    max-width: 1100px;
+  }
+}
+
+
+@media (min-width:740px){
+  .Promotion{
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 740px){
+
+  .Promotion{
+    width: 90%;
+  }
+}

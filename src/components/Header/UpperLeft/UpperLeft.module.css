@@ -1,0 +1,15 @@
+.upperleft{
+  display: flex;
+  margin-top: 10px;
+}
+
+.upperleft .Header_Search_Group,.upperleft div:first-child{
+  padding: 10px 5px;
+  margin-left: 20px;
+
+}
+
+.airbnb_icon{
+  font-size: 30px;
+
+}

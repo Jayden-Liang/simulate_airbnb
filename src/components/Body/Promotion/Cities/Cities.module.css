@@ -1,0 +1,79 @@
+.outterWrapper{
+  width: 95%;
+  position: relative;
+}
+
+.CityWrap{
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  padding:10px;
+}
+
+
+.City{
+  transition: all 0.8s ease;
+  position: static;
+}
+
+
+
+.outterWrapper button{
+  color:#696969;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  box-shadow: -1px 1px 1px #ccc;
+  display: inline-block;
+  margin-top: 8px;
+  cursor: pointer;
+
+}
+
+.outterWrapper button:focus{
+  outline: none;
+}
+
+
+
+
+.City span,.firstOne,.lastOne{
+  transition: box-shadow 0.3s ease;
+  border: 1px #ccc solid;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px #ccc;
+  cursor: pointer;
+  z-index: 9;
+}
+
+
+
+.City span:first-child{
+  margin-left: 132px;
+}
+
+.firstOne{
+  position: absolute;
+  transition: all 0.8s ease;
+  margin-left: 0;
+
+}
+
+
+.lastOne{
+  position: absolute;
+  transition: all 0.8s ease;
+}
+
+.City span:hover,.firstOne:hover,.lastOne:hover{
+  box-shadow: 0px 4px 8px -2px #ccc;
+}
+
+.City span:not(:first-child){
+    margin-left: 20px;
+}

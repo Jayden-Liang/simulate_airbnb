@@ -1,0 +1,120 @@
+.selectGroup_Wrapper{
+  position: relative;
+}
+
+.typeSelector{
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100px;
+  z-index: 10;
+  background: white;
+  box-shadow: -1px -1px 30px -5px #ccc;
+
+}
+
+.typeSelector div{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 120%;
+  color:#484848;
+  cursor: pointer;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+.typeSelector div:hover{
+  background-color: #f0f8ff;
+}
+
+.selectGroup{
+  border: 1px red solid;
+  width: 95%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns:100px minmax(200px, 1fr)  100px;
+  height: 70px;
+  background: white;
+}
+
+.type{
+  border-right: 1px #ccc solid;
+  text-align: center;
+  padding-top: 20px;
+  color:#484848;
+  cursor: pointer;
+}
+
+.type span:first-child{
+  font-weight: bold;
+  font-size: 120%;
+}
+.type span:last-child{
+  margin-left: 10px;
+}
+
+.inputAndCal{
+  border: 1px blue solid;
+}
+
+.inputAndCal div{
+  display: inline-block;
+  border: 1px blue solid;
+}
+.input{
+  height: 100%;
+  padding-left: 20px;
+  border-right: 1px #ccc solid;
+}
+
+.input span{
+  color:#484848;
+  margin-right: 10px;
+}
+.input input{
+  width: 94%;
+  height: 80%;
+  font-size: 120%;
+  margin-top:5px;
+  border: none;
+  font-weight: bold;
+}
+
+.input input:focus{
+  outline: none;
+}
+
+.Cal{
+  border-right: 1px #ccc solid;
+
+}
+
+.Cal span:first-child{
+  color:#484848;
+
+}
+.Cal span:last-child{
+  margin-left: 10px;
+  font-size: 120%;
+  font-weight: bold;
+  color:#484848;
+
+}
+
+
+.searchbutton{
+  padding-top: 15px;
+}
+
+.searchbutton button{
+  width: 60px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  border: none;
+  background-color:#FF5A5F;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}

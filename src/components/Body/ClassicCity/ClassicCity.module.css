@@ -1,0 +1,35 @@
+.Classic{
+   margin: auto;
+   margin-top: 50px;
+
+
+}
+
+.cities{
+  border: 1px red solid;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+@media (min-width:1100px){
+  .Classic{
+    max-width: 1100px;
+  }
+}
+
+
+@media (min-width:740px){
+  .Classic{
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 740px){
+
+  .Classic{
+    width: 90%;
+  }
+}

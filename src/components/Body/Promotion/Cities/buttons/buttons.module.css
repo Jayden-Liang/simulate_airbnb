@@ -1,0 +1,22 @@
+.leftbuttonWrapper{
+  position: absolute;
+  top: 0px;
+  left: -15px;
+  color: blue;
+  height:80%;
+  margin-top:5px;
+  z-index: 10;
+  background:white;
+  box-shadow: 10px 10px 26px 22px white;
+}
+
+.rightbuttonWrapper{
+  position: absolute;
+  top: 0px;
+  right:-15px;
+  height:80%;
+  margin-top:5px;
+  z-index: 10;
+  background:white;
+  box-shadow: 10px 10px 26px 22px white;
+}
