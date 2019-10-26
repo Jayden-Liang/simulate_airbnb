@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import homeData from '../../../../../assets/data/homes.json'
 import classes from './CityHotels.module.css'
-import Rating from 'react-rating'
+// import Rating from 'react-rating'
 import Stars from '../../../../Utils/RatingStar/RatingStar'
 // var Rating = require('react-rating');
 
@@ -19,7 +19,7 @@ class CityHotels extends Component{
     if (data){
        each=data.map((item, index)=>{
          const myclass='each_'+index
-         return <div key={index} className={'each'+' '+myclass}>
+         return <div key={index} className={`each ${myclass}`}>
                      <div className={classes.Img} style={{
                        background: "url('https://z1.muscache.cn/im/pictures/473cbf2c-aab0-4492-9d02-e4377a8e609b.jpg?aki_policy=large')",
                        backgroundSize:"contain"

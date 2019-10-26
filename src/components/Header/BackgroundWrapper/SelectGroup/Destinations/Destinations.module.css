@@ -1,0 +1,46 @@
+.whole{
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+  /* border: 2px blue solid; */
+}
+
+.whole p{
+  width: 95%;
+  font-size: 75%;
+  color: rgb(118, 118, 118);
+  font-weight: bold;
+  padding-bottom: 1rem;
+  border-bottom: 1px rgb(118, 118, 118, 0.3) solid;
+
+}
+
+.cities{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.outterEach{
+  padding: 5px 10px;
+}
+.each{
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.each:hover{
+  background-color: #dfe4ea;
+
+
+}

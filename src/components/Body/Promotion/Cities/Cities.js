@@ -57,8 +57,9 @@ class Cities extends Component{
       <div className={classes.City} style={{transform:`translateX(${this.state.left}px)`}}>
         {citygroup}
       </div>
-      </div>
 
+      </div>
+      <Buttons changeLeft={this.changeLeft} changeRight={this.changeRight}/>
      <CityHotels  city={this.state.cityOn}/>
      </div>
     )

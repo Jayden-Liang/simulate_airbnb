@@ -13,7 +13,7 @@ import SelectGroup from './SelectGroup/SelectGroup'
 
 const mapStateToProps=state=>{
   return{
-    currentShow: state.currentShow
+    currentShow: state.bg.currentShow
   }
 }
 
@@ -68,8 +68,9 @@ class BackgroundWrapper extends Component{
               <h2>汇率[破七]超值游</h2>
               <div className={classes.More}>查看合集</div>
               <ProgressBar active={this.props.currentShow}/>
-              <SelectGroup />
+
           </div>
+          <SelectGroup />
 
         </div>
       )

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
-import classes from './RatingStar.module.css'
+
 
 const ratingStar=(props)=>{
   let list=null
