@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82e541f30fd2948d47a64fb0f343ce46",
+    "revision": "33b7ccadd2e333083b79fc8a2cfeb20b",
     "url": "/simulate_airbnb/index.html"
   },
   {
-    "revision": "9647ab696bc70b5a0d05",
-    "url": "/simulate_airbnb/static/css/main.bdbb1cb7.chunk.css"
+    "revision": "e0eed69788b659afa840",
+    "url": "/simulate_airbnb/static/css/main.2005b8c6.chunk.css"
   },
   {
-    "revision": "126c5fa35acf8147024a",
-    "url": "/simulate_airbnb/static/js/2.8d946cc4.chunk.js"
+    "revision": "bad2a428a83f865bdbc7",
+    "url": "/simulate_airbnb/static/js/2.5fe71c95.chunk.js"
   },
   {
-    "revision": "9647ab696bc70b5a0d05",
-    "url": "/simulate_airbnb/static/js/main.36009d1c.chunk.js"
+    "revision": "e0eed69788b659afa840",
+    "url": "/simulate_airbnb/static/js/main.9005f198.chunk.js"
   },
   {
     "revision": "0b0e3b2b4930b388ffe3",
