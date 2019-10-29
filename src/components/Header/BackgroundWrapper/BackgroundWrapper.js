@@ -30,21 +30,26 @@ class BackgroundWrapper extends Component{
 
   render(){
      let current_bg= Banner1
+     let current_slogan='汇率[破七]超值游'
      switch (this.props.currentShow) {
        case 1:
         current_bg=Banner1
+        current_slogan='汇率[破七]超值游'
         this.props.rightRoll()
         break;
        case 2:
         current_bg=Banner2
+        current_slogan='爱彼迎东南亚特选'
         this.props.rightRoll()
         break
        case 3:
          current_bg=Banner3
+         current_slogan='日本秋叶之旅'
          this.props.rightRoll()
          break
        case 4:
         current_bg=Banner4
+        current_slogan='好房东，获取好房东推荐'
         this.props.rightRoll()
         break
        default:
@@ -65,7 +70,7 @@ class BackgroundWrapper extends Component{
               <button onClick={this.props.rightClicked}><FontAwesomeIcon icon={faChevronRight} size="lg" /></button>
           </div>
           <div className={classes.Banner_Intro}>
-              <h2>汇率[破七]超值游</h2>
+              <h2>{current_slogan}</h2>
               <div className={classes.More}>查看合集</div>
               <ProgressBar active={this.props.currentShow}/>
 

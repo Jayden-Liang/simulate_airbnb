@@ -1,5 +1,17 @@
 .each{
-  border: 1px blue solid;
-  width: 12%;
-  margin-left: 20px;
+
+
+}
+
+.title{
+  color:#5C525D;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.price{
+  font-size: 80%;
+  margin-top:5px;
+  color:#5C525D;
+  font-weight: bold;
 }

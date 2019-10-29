@@ -5,7 +5,36 @@
 .Sep{
   border-bottom: 1px #cccc solid;
 }
+.each{
+  line-height: 5px;
+}
 
+.each p a{
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+  color: #696969;
+}
+
+.each p a:hover{
+  text-decoration: underline;
+}
+.each p span{
+  background: #484848;
+  color: white;
+  font-size: 70%;
+  padding: 2px 3px;
+  margin-left: 3px;
+  border-radius: 3px;
+}
+
+.faWeibo, .faWeixin{
+  font-size: 150%;
+  color: #696969;
+}
+.faWeixin{
+  margin-left: 10px;
+}
 .airbnb_icon{
   font-size: 120%;
 }
@@ -13,6 +42,7 @@
 .Bottom{
   display: grid;
   grid-template-columns: 2% 80% 18%;
+  color: #696969;
 }
 
 .Bottom div:first-child{
@@ -30,6 +60,15 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
+}
+
+.buttons button{
+  margin-left: 8px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px #ccc solid;
+  cursor: pointer;
 }
 
 

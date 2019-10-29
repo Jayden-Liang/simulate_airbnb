@@ -57,6 +57,10 @@
   margin-left: 132px;
 }
 
+:global .city_active{
+  background: #00848A;
+}
+
 .firstOne{
   position: absolute;
   transition: all 0.8s ease;

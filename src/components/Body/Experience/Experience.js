@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import classes from './Experience.module.css'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Experience extends Component{
   state={
@@ -60,14 +62,14 @@ class Experience extends Component{
         comments: 204,
         url: 'https://z1.muscache.cn/im/pictures/45a7e80e-aadf-4cc4-bfaa-361034b85218.jpg?aki_policy=poster'
       },
-      {
-        location: '泰国',
-        description: '清迈粘瀑布',
-        price: '￥303',
-        star: 4.96,
-        comments: 529,
-        url: 'https://z1.muscache.cn/im/pictures/42708500-e24b-48ba-af96-83c77c184aad.jpg?aki_policy=poster'
-      }
+      // {
+      //   location: '泰国',
+      //   description: '清迈粘瀑布',
+      //   price: '￥303',
+      //   star: 4.96,
+      //   comments: 529,
+      //   url: 'https://z1.muscache.cn/im/pictures/42708500-e24b-48ba-af96-83c77c184aad.jpg?aki_policy=poster'
+      // }
     ]
   }
 
@@ -80,10 +82,10 @@ class Experience extends Component{
                  background: `url(${item.url})`,
                  backgroundSize: "cover"
               }}></div>
-              <div>{item.location}</div>
+              <div className={classes.location}>{item.location}</div>
               <div className={classes.description}>{item.description}</div>
-              <div>{item.price}/人起</div>
-              <div>{item.star} icon ({item.comments})</div>
+              <div className={classes.price}>{item.price}/人起</div>
+              <div className={classes.rating}>{item.star} <FontAwesomeIcon icon={faStar} size="sm" className={classes.faStar}/> ({item.comments})</div>
            </div>
    })
 

@@ -6,21 +6,57 @@
 }
 
 .Img{
-  width: 120px;
-  height:170px;
+  width: 135px;
+  height:190px;
+  border-radius: 3px;
 }
 
 .all{
   display: flex;
+  width: 1020px;
+  justify-content: space-between;
 }
 .each{
  width: 130px;
 }
 
+.each .location{
+  color: grey;
+  font-size: 75%;
+  font-weight: bold;
+  margin:5px 0;
+}
+
+.each .description{
+  font-weight: bold;
+  color: #484848;
+}
+
+.each .price{
+  margin: 5px 0;
+  font-size: 85%;
+
+}
+
+.each .rating{
+  font-size: 75%;
+  font-weight: bold;
+  color: rgb(0, 132, 137);
+}
+.faStar{
+  font-size: 70%;
+}
+
+.more a{
+  color: #006c70;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 110%;
+}
+
 .hr{
   margin-top: 100px;
   border-bottom: 1px #cccc solid;
-
 }
 
 

@@ -5,7 +5,7 @@
 
 .progressBar .bar{
   height: 2px;
-  background-color: #c0d6e4;
+  background: rgba(200, 214, 229,0.3);
   margin-left: 5px;
   width: 40px;
   position: relative;
@@ -18,7 +18,7 @@
   top: 0px;
   width: 0;
   height: 2px;
-  background-color: #FFFFFF;
+  background-color:white;
   z-index: 1;
   animation-name: baranimation;
   animation-iteration-count:infinite;

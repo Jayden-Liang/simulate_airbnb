@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 import classes from './Footer.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAirbnb } from '@fortawesome/free-brands-svg-icons'
+import { faAirbnb, faWeibo, faWeixin } from '@fortawesome/free-brands-svg-icons'
 
 class Footer extends Component{
   render(){
     return (
       <div className={classes.Footer}>
       <div className={classes.columns}>
-         <div>
+         <div className={classes.each}>
           <h5>爱彼迎</h5>
           <p><a href="/">工作机会</a></p>
           <p><a href='/'>爱彼迎新闻</a></p>
@@ -17,7 +17,7 @@ class Footer extends Component{
           <p><a href='/'>多元化与归属感</a></p>
           <p><a href='/'>无障碍设施</a><span>新推出</span></p>
          </div>
-         <div>
+         <div className={classes.each}>
           <h5>发现</h5>
           <p><a href='/'>信任与安全</a></p>
           <p><a href='/'>旅行基金</a></p>
@@ -26,7 +26,7 @@ class Footer extends Component{
           <p><a href='/'>缤纷体验</a><span>新推出</span></p>
           <p><a href='/'>爱彼迎杂志</a></p>
          </div>
-         <div>
+         <div className={classes.each}>
           <h5>出租</h5>
           <p><a href='/'>为什么要出租?</a></p>
           <p><a href='/'>待客之道</a></p>
@@ -34,8 +34,8 @@ class Footer extends Component{
           <p><a href='/'>开展体验</a><span>新推出</span></p>
           <p><a href='/'>Open Homes</a></p>
          </div>
-         <div>
-          <h5>weibo  weixin</h5>
+         <div className={classes.each}>
+          <h5><FontAwesomeIcon icon={faWeibo } className={classes.faWeibo} /> <FontAwesomeIcon icon={faWeixin } className={classes.faWeixin} />  </h5>
           <p><a href='/'>条款</a></p>
           <p><a href='/'>隐私政策</a></p>
           <p><a href='/'>网站地图</a></p>

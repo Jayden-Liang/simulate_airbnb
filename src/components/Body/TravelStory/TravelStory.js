@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import classes from './TravelStory.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faThumbsUp, faCommentDots } from '@fortawesome/free-solid-svg-icons'
+import { faHandPointUp } from '@fortawesome/free-regular-svg-icons'
 
 class TravelStory extends Component{
   state={
@@ -71,10 +74,15 @@ class TravelStory extends Component{
                    background: `url(${item.url})`,
                    backgroundSize: "cover"
                  }} >
+                 <span className={classes.thumbup}><FontAwesomeIcon icon={faHandPointUp} size="lg" className={classes.faHandPointUp}/></span>
+                 <span className={classes.type}>房源</span>
+
                  </div>
-                 <div><span>{item.name}</span>{item.description}</div>
-                 <div><span></span> icon {item.thumbup} comment {item.comments}</div>
-             </div>
+                 <div className={classes.title}><span>{item.name}</span>{item.description}</div>
+                 <div className={classes.icons}><span></span>
+                 <FontAwesomeIcon icon={faThumbsUp} size="sm" className={classes.thumb}/>{item.thumbup}
+                 <FontAwesomeIcon icon={faCommentDots} size="sm" className={classes.comments}/> {item.comments}</div>
+                </div>
     })
     return(
         <div className={classes.TravelStory}>

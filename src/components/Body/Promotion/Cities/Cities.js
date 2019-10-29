@@ -44,7 +44,7 @@ class Cities extends Component{
     newCitylist.pop()
     newCitylist.shift()
     const citygroup=newCitylist.map((item,index)=>{
-      return <span onClick={()=>this.clicked(item)} key={index}>{item}</span>
+      return <span className={this.state.cityOn===item?"city_active":null} onClick={()=>this.clicked(item)} key={index}>{item}</span>
     })
 
 
@@ -52,8 +52,8 @@ class Cities extends Component{
     return (
       <div className={classes.outterWrapper}>
       <div className={classes.CityWrap}>
-      <span className={classes.firstOne} onClick={()=>this.clicked(this.props.citylist[0])} style={{left:`${this.state.myleft}px`}}>{this.props.citylist[0]}</span>
-      <span className={classes.lastOne} style={{left:`${this.state.myright}px`}}>{this.props.citylist[this.props.citylist.length-1]}</span>
+      <span className={this.state.cityOn===this.props.citylist[0]?"city_active"+" "+classes.firstOne:"button"+" "+classes.firstOne}  onClick={()=>this.clicked(this.props.citylist[0])} style={{left:`${this.state.myleft}px`}}>{this.props.citylist[0]}</span>
+      <span  className={this.state.cityOn===this.props.citylist[this.props.citylist.length-1]?"city_active"+" "+classes.firstOne:"button"+" "+classes.lastOne} onClick={()=>this.clicked(this.props.citylist[this.props.citylist.length-1])} style={{left:`${this.state.myright}px`}}>{this.props.citylist[this.props.citylist.length-1]}</span>
       <div className={classes.City} style={{transform:`translateX(${this.state.left}px)`}}>
         {citygroup}
       </div>
