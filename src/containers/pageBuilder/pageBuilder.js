@@ -39,7 +39,7 @@ class pageBuilder extends Component{
         <TravelStory />
         <Experience />
         <Footer />
-        <div>footer</div>
+
       </div>
     )
   }
