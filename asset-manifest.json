@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/simulate_airbnb/static/css/main.2005b8c6.chunk.css",
-    "main.js": "/simulate_airbnb/static/js/main.5fc8d052.chunk.js",
-    "main.js.map": "/simulate_airbnb/static/js/main.5fc8d052.chunk.js.map",
+    "main.js": "/simulate_airbnb/static/js/main.620386fd.chunk.js",
+    "main.js.map": "/simulate_airbnb/static/js/main.620386fd.chunk.js.map",
     "runtime-main.js": "/simulate_airbnb/static/js/runtime-main.74e60c2a.js",
     "runtime-main.js.map": "/simulate_airbnb/static/js/runtime-main.74e60c2a.js.map",
     "static/js/2.5fe71c95.chunk.js": "/simulate_airbnb/static/js/2.5fe71c95.chunk.js",
     "static/js/2.5fe71c95.chunk.js.map": "/simulate_airbnb/static/js/2.5fe71c95.chunk.js.map",
     "index.html": "/simulate_airbnb/index.html",
-    "precache-manifest.45ad27aac244962e6f427550ca788888.js": "/simulate_airbnb/precache-manifest.45ad27aac244962e6f427550ca788888.js",
+    "precache-manifest.69fc23cdc14f791c6321a02bf4bb388f.js": "/simulate_airbnb/precache-manifest.69fc23cdc14f791c6321a02bf4bb388f.js",
     "service-worker.js": "/simulate_airbnb/service-worker.js",
     "static/css/main.2005b8c6.chunk.css.map": "/simulate_airbnb/static/css/main.2005b8c6.chunk.css.map",
-    "static/media/banner_1.jpg": "/simulate_airbnb/static/media/banner_1.72b6e478.jpg",
-    "static/media/banner_2.jpg": "/simulate_airbnb/static/media/banner_2.15ed09c5.jpg",
-    "static/media/banner_3.jpg": "/simulate_airbnb/static/media/banner_3.5c250112.jpg",
-    "static/media/banner_4.jpg": "/simulate_airbnb/static/media/banner_4.d0090804.jpg",
-    "static/media/plus.jpg": "/simulate_airbnb/static/media/plus.302c047c.jpg"
+    "static/media/banner_1.jpg": "/simulate_airbnb/static/media/banner_1.77ea7040.jpg",
+    "static/media/banner_2.jpg": "/simulate_airbnb/static/media/banner_2.37b1e8c9.jpg",
+    "static/media/banner_3.jpg": "/simulate_airbnb/static/media/banner_3.5122427d.jpg",
+    "static/media/banner_4.jpg": "/simulate_airbnb/static/media/banner_4.a2d5ca0a.jpg",
+    "static/media/plus.jpg": "/simulate_airbnb/static/media/plus.57f11d26.jpg"
   }
 }
